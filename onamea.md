@@ -46,7 +46,7 @@ A protocol to encode vanity names within cryptographic agnostic public keys. Plu
 | 30 | X | x | ☁️ | U+2601
 | 31 | Y | y | ⏰ | U+23F0	
 
-Authoritative character definition: https://github.com/mikeobank/vanice-types/blob/main/lib/characters.json
+Authoritative character definition: https://github.com/onamea/types/blob/main/lib/characters.json
 
 ### Cryptographic schemes
 - 0: Ed25519 (crypto.subtle)
