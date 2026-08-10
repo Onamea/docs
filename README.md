@@ -1,11 +1,11 @@
-# Vanice
+# Onamea
 
 ## Web
-- https://vanice.cloud
-- https://api.vanice.cloud
+- https://onamea.com
+- https://api.onamea.com
 
 ## Repositories
-- Proposal: https://github.com/mikeobank/vanice/blob/main/vanice.md, https://github.com/mikeobank/vanice/blob/main/CRDT.md
+- Proposal: https://github.com/onamea/docs/blob/main/vanice.md, https://github.com/onamea/docs/blob/main/CRDT.md
 - Typescript library: https://github.com/mikeobank/vanice-types
 - Mining script: https://github.com/mikeobank/vanice-ts
 - website: https://github.com/mikeobank/vanice.cloud

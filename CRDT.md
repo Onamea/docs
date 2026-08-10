@@ -1,4 +1,4 @@
-# Vanice
+# Onamea CRDT
 
 A Conflict Free Replicated Datatype, using operations to build both Identities (by NameKeys) and regular Items (by String Ids). An Operation can be signed into Message.
 

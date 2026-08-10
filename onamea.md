@@ -1,4 +1,4 @@
-# Vanice
+# Onamea
 
 ## Decentralized Naming
 
