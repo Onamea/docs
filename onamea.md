@@ -6,6 +6,7 @@ A protocol to encode vanity names within cryptographic agnostic public keys. Plu
 
 ### Example
 **Alice☔️☀️✈️🍴🌸**
+- name key: Alice@5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
 - primary key: A11CE5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
 - fingerprint: ☔️☀️✈️🍴🌸🎄☃️🎁⚽✈️⭐☕️✒️☁️🦋💪⏰🙏☔️⚡️🙏🎁🌸🚗🔑💡🎄🔥🌸🌙😀🏠🎄🦋🙏⚡️🎁☕️😀🍴🏠🌸🦋⭐⭐🎵😀🌸✈️⚽🌸🎁
 - public key (Schnorr): 5042c716e397697a6d6939513f5cdb9463b12ab6fccdee98cd5d2a526b8cd099
@@ -102,7 +103,9 @@ When using XPubs derived from a seed, it's possible to outsource the searching o
 - Non Latin characters in names
 - Recommended length of fingerprint / total length (vanity name + fingerprint)
 - A more complex, computationally harder derivation of fingerprints?
-- Should the name or length of name be digested into the fingerprint?
+- control characters in Path (CRDT)
+- Namespacing, vouching, Web of Trust
+- Derivation Path for Mnemonic
+- Multisig, Shamir Secret Sharing
 - Registries. Preferably distributed, decentralized. Web, Desktop, iOS, Android.
 - Anchor into Bitcoin blockchain
-- Namespacing, vouching, Web of Trust
