@@ -90,22 +90,13 @@ Authoritative character definition: https://github.com/onamea/types/blob/main/li
 
 When using XPubs derived from a seed, it's possible to outsource the searching of vanity names without having to reveal the seed. 2,147,483,648 public keys can be derived per single XPub. And also 2,147,483,648 XPubs can be created from a single seed. That means on average one XPub will reveal any 6-letter name, and a single seed could contain any 12-letter name.
 
-### Additional control characters
-#### Name separator 
-- `@` e.g.: Vanice@KTGGWMWMRBP2PCBR2MJMGKXMHS709JSVT7HTFTFSCJWN7G2
-#### Web of Trust
-- `/\` e.g.: Vanice☁️☕️❤️☁️/Mike💡✈️❤️🦋☀️💡 or Mike💡✈️❤️🦋☀️💡\Vanice☁️☕️❤️☁️
-
-### To be decided / To do
+### To Be Decided / To Do
 - Final character set
 - Final emoji set, size, and order (indices)
 - Allow for ambiguous emojis?
-- Non Latin characters in names
+- Non ASCII secondary characters
 - Recommended length of fingerprint / total length (vanity name + fingerprint)
 - A more complex, computationally harder derivation of fingerprints?
-- control characters in Path (CRDT)
-- Namespacing, vouching, Web of Trust
 - Derivation Path for Mnemonic
 - Multisig, Shamir Secret Sharing
-- Registries. Preferably distributed, decentralized. Web, Desktop, iOS, Android.
-- Anchor into Bitcoin blockchain
+- Quantum ready cryptographic scheme
