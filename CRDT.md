@@ -25,6 +25,7 @@ type CreateOperation = {
 }
 ```
 **raw**
+
 *note that a RawOperation for a CREATE is just a string of the Identity / Id*
 ```
 Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0
@@ -49,7 +50,8 @@ type SetOperation = {
 }
 ```
 **raw**
-*note that OperationType is display by it's index for all Operations except CREATE
+
+*note that OperationType is display by it's index for all Operations except CREATE*
 ```
 Vanice@EP3TH0TB0WQEEU879EEVB9YA078MDDFC7NU4XQ21N8GWB03
 888c9de90960b315f36bd5b19cfb3b169751bcf47bdb0579c120c2281d935155
