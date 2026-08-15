@@ -32,9 +32,9 @@ Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0
 ```
 ```JSON
 {
-  hash: "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
-  id: "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
-  type: "CREATE"
+  "hash": "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
+  "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
+  "type": "CREATE"
 }
 ```
 
@@ -61,11 +61,11 @@ onamea.com
 ```
 ```JSON
 {
-  id: "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
-  previousHash: "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
-  hash: "6f68891beed9f167af9fd388c88885b9ddafacd728e6d6a75abb57904f170a0c",
-  type: "SET",
-  body: "onamea.com"
+  "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
+  "previousHash": "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
+  "hash": "6f68891beed9f167af9fd388c88885b9ddafacd728e6d6a75abb57904f170a0c",
+  "type": "SET",
+  "body": "onamea.com"
 }
 ```
 
@@ -84,16 +84,16 @@ onamea.com
   "relations": [],
   "operations": [
     {
-      hash: "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
-      id: "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
-      type: "CREATE"
+      "hash": "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
+      "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
+      "type": "CREATE"
     },
     {
-      id: "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
-      previousHash: "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
-      hash: "6f68891beed9f167af9fd388c88885b9ddafacd728e6d6a75abb57904f170a0c",
-      type: "SET",
-      body: "onamea.com"
+      "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
+      "previousHash": "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
+      "hash": "6f68891beed9f167af9fd388c88885b9ddafacd728e6d6a75abb57904f170a0c",
+      "type": "SET",
+      "body": "onamea.com"
     }
   ]
 }
@@ -112,10 +112,10 @@ type Message = {
 ```
 ```JSON
 {
-  raw: "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
-  cryptoName: "Ed25519",
-  publicKey: "055547291f4d749ed85bd4142cd77ee2ec6b345324d5a05c114d74d4570f900f",
-  signature: "3c7f020a53e54a40fedde7f3e15925d6d277f9f0fc92c8a2da156283270e2e8689836f4186db268d64e2d1e2480629422a7d84fe44cda327b5cb23f72b079b0a",
-  datetime: 1786810212817
+  "raw": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
+  "cryptoName": "Ed25519",
+  "publicKey": "055547291f4d749ed85bd4142cd77ee2ec6b345324d5a05c114d74d4570f900f",
+  "signature": "3c7f020a53e54a40fedde7f3e15925d6d277f9f0fc92c8a2da156283270e2e8689836f4186db268d64e2d1e2480629422a7d84fe44cda327b5cb23f72b079b0a",
+  "datetime": 1786810212817
 }
 ```
