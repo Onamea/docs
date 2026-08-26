@@ -4,16 +4,16 @@ A Conflict Free Replicated Datatype, using operations to build both Identities (
 
 ## Operation types
 
-- CREATE (0)
-- SET (1)
-- DELETE (2)
-- GRANT (3)
-- REVOKE (4)
-- VOUCH (5)
-- DENOUNCE (6)
-- RELATE (7)
-- UNRELATE (8)
-- REVERT (9)
+- CREATE
+- SET
+- DELETE
+- GRANT
+- REVOKE
+- VOUCH
+- DENOUNCE
+- RELATE
+- UNRELATE
+- REVERT
 
 ### Create Operation
 
@@ -51,19 +51,17 @@ type SetOperation = {
 ```
 **raw**
 
-*note that OperationType is display by it's index for all Operations except CREATE*
 ```
-Vanice@EP3TH0TB0WQEEU879EEVB9YA078MDDFC7NU4XQ21N8GWB03
-888c9de90960b315f36bd5b19cfb3b169751bcf47bdb0579c120c2281d935155
-b14a448eceb822f374b15ab5ff77d61c4b4fae66a72679ed1a0b68d27d6343c5
-1
+Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0
+26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3
+SET
 onamea.com
 ```
 ```JSON
 {
   "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
   "previousHash": "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
-  "hash": "6f68891beed9f167af9fd388c88885b9ddafacd728e6d6a75abb57904f170a0c",
+  "hash": "5363b6a504513c0a39d1d10ea871cc00427dbae39684f1715c1b640bfc3682ac",
   "type": "SET",
   "body": "onamea.com"
 }
@@ -75,7 +73,7 @@ onamea.com
 {
   "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
   "name": "Vanice",
-  "fingerprintDisplay": "⚽🦋🏁💡🔥✒️⭐⏰☁️🔥🎵⚽✈️⚡️🔑🔑🏠🎁☔️☕️🎄💪⭐☔️🏁🎄🔑⭐💪🔑🎵❤️💪✈️☁️🔥👍👍⭐☕️⭐❤️☔️🌙🙏🎁🏠🎄☀️🌙☀️😀",
+  "fingerprintDisplay": "💪🎄⚽☀️☔️🦋💪🍴☃️🏠☔️🎄❤️🦋✒️🔑☁️☁️⏰💪👍😀⚽🌙☔️⚡️🔑🏠🎄🚀☃️☃️💡✈️🎵🎉🚀🏁🎁🚗🔥⚽⚽⏰⚡️🎁💡🚗☔️🎉🏠🎁",
   "publicKeyDisplay": "e2aa1638997e2d6f3186416023332db7a7fdf7124392572c6c9913a1984a4df2",
   "body": "onamea.com",
   "tombstone": false,
@@ -91,7 +89,7 @@ onamea.com
     {
       "id": "Onamea@8Y9NT9WP2UTGA2SNUXVBP6PD2K4KAT0Q0H9NTD8NRFJ07G0",
       "previousHash": "26979df4824477a1f432f7be43016ddba51d6108aaa96c260c7ad7f742acdda3",
-      "hash": "6f68891beed9f167af9fd388c88885b9ddafacd728e6d6a75abb57904f170a0c",
+      "hash": "5363b6a504513c0a39d1d10ea871cc00427dbae39684f1715c1b640bfc3682ac",
       "type": "SET",
       "body": "onamea.com"
     }

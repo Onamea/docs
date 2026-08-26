@@ -6,9 +6,9 @@ A protocol to encode vanity names within cryptographic agnostic public keys. Plu
 
 ### Example
 **Alice☔️☀️✈️🍴🌸**
-- name key: Alice@5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
-- primary key: A11CE5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
-- fingerprint: ☔️☀️✈️🍴🌸🎄☃️🎁⚽✈️⭐☕️✒️☁️🦋💪⏰🙏☔️⚡️🙏🎁🌸🚗🔑💡🎄🔥🌸🌙😀🏠🎄🦋🙏⚡️🎁☕️😀🍴🏠🌸🦋⭐⭐🎵😀🌸✈️⚽🌸🎁
+- NameKey: Alice@5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
+- PrimaryKey: A11CE5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
+- Fingerprint: 👍🎉🎉🎵☃️💪🎵⏰⚡️🚀☀️🎄⚽🌙🎉🏠🎄☀️☁️☃️💪✒️⚽⭐☀️😀🎉🔥🔥🎉🎵☔️🍴🎄🌙☃️😀☁️😀☀️⚽🚀👍☁️✒️💡⏰☀️🏠⭐🏁🎁
 - public key (Schnorr): 5042c716e397697a6d6939513f5cdb9463b12ab6fccdee98cd5d2a526b8cd099
 
 ### Character set
@@ -55,14 +55,15 @@ Authoritative character definition: https://github.com/onamea/types/blob/main/li
 - 2: Schnorr
 
 ### Computation
-- Convert vanity name to primary name
+- Convert vanity name to PrimaryName
 - Generate key pair
-- Encode public key to primary key using base 32 primary characters 
+- Encode public key to PrimaryKey using base 32 primary characters 
   - Cryptographic scheme index is appended
   - ECDSA: The sign bit (0x02 or 0x03) of the compressed public key is moved to the end
-- Check if primary key starts with primary name  
+- Check if PrimaryKey starts with PrimaryName  
 **When a match is found**:  
-- SHA256 digest public key (hash)
+- Convert public key to NameKey
+- SHA256 digest NameKey (hash)
 - Encode hash to base 32 fingerprint 
 - Append the first n emojis to the vanity name (n = 10 - length(vanity name), minimum 3)
 
