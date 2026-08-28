@@ -5,7 +5,7 @@
 A protocol to encode vanity names within cryptographic agnostic public keys. Plus an additional fingerprint encoded using emoji characters. Allowing for unique names, where duplicates (conflicting pairs of name & fingerprint) will be exponentially hard to brute force.
 
 ### Example
-**Alice☔️☀️✈️🍴🌸**
+**Alice👍🎉🎉🎵☃️**
 - NameKey: Alice@5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
 - PrimaryKey: A11CE5Q3JWMQMUB9758KXQ6UJHHU2ANPYK6XW66DBMN54TVCT2CG2
 - Fingerprint: 👍🎉🎉🎵☃️💪🎵⏰⚡️🚀☀️🎄⚽🌙🎉🏠🎄☀️☁️☃️💪✒️⚽⭐☀️😀🎉🔥🔥🎉🎵☔️🍴🎄🌙☃️😀☁️😀☀️⚽🚀👍☁️✒️💡⏰☀️🏠⭐🏁🎁
