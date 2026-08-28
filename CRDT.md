@@ -97,6 +97,15 @@ onamea.com
 }
 ```
 
+### RawOperation
+UTF-8 text file, with `\n` (LF) used for newlines. No trailing newline required. Mostly in the following form:
+```
+{ Id }
+{ previous Hash }
+{ OperationType }
+{ content (possible multiline) }
+```
+
 ### Message
 
 ```Typescript
